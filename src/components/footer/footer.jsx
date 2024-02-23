@@ -22,17 +22,17 @@ const Footer = () => {
           <div className="footer-column">
           <div className="footer-column1">
             <div className="logo">
-              <img src="dinosaur.png" alt="Logo" />
+              <img src="/images/dinosaur.png" alt="Logo" />
             </div>
             <div className="social-icons">
-              {/* <img src="./assets/images/facebook" alt="Facebook" /> */}
-              <img src="/assets/images/twitter.png" alt="Twitter" />
-              <img src="../assets/images/telegram.png" alt="telegram" />
-              <img src="../assets/images/utube.png" alt="utube" />
+              <img src="/images/twitter.png" alt="Twitter" />
+              <img src="/images/telegram.png" alt="telegram" />
+              <img src="/images/utube.png" alt="utube" />
+             <img src="/images/telegram.png" alt="telegram" />
             </div>
           </div>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus vero, dolore error aliquid quibusdam quae officiis aspernatur, autem repellendus necessi.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus vero, dolore error aliquid quibusdam quae </p>
 
           <div className="footer-list">
           <div className="list-column">
