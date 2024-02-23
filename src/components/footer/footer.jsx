@@ -8,7 +8,8 @@ const Footer = () => {
       <div className="container">
         <div className="footer-columns">
           <div className="footer-column">
-            <h3>About Us</h3>
+            <h3>If you need to know anything About Us dont <br/> hesitate to call us</h3>
+            <p>If you need to know anything, have any questions, About Us dont hesitate to call us</p>
             <p>Some descriptive text goes here.</p>
             <p>Email: info@example.com</p>
             <p>Phone: 123-456-7890</p>
@@ -17,7 +18,7 @@ const Footer = () => {
               <button>Send</button>
             </div>
           </div>
-          <div className="footer-column">
+          <div className="footer-column1">
             <div className="logo">
               <img src="logo.png" alt="Logo" />
             </div>
