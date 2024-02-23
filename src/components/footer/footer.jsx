@@ -18,41 +18,53 @@ const Footer = () => {
               <button>Send</button>
             </div>
           </div>
+
+          <div className="footer-column">
           <div className="footer-column1">
             <div className="logo">
-              <img src="logo.png" alt="Logo" />
+              <img src="dinosaur.png" alt="Logo" />
             </div>
             <div className="social-icons">
-              <img src="facebook.png" alt="Facebook" />
-              <img src="twitter.png" alt="Twitter" />
-              <img src="instagram.png" alt="Instagram" />
+              {/* <img src="./assets/images/facebook" alt="Facebook" /> */}
+              <img src="/assets/images/twitter.png" alt="Twitter" />
+              <img src="../assets/images/telegram.png" alt="telegram" />
+              <img src="../assets/images/utube.png" alt="utube" />
             </div>
           </div>
+
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus vero, dolore error aliquid quibusdam quae officiis aspernatur, autem repellendus necessi.</p>
+
+          <div className="footer-list">
+          <div className="list-column">
+            <ul>
+              <li>Home</li>
+              <li>Testimonies</li>
+              <li>Destinations</li>
+              <li>Signing</li>
+            </ul>
+          </div>
+          <div className="list-column">
+            <ul>
+            <li>About Us</li>
+              <li>Testimonies</li>
+              <li>Destinations</li>
+              <li>Signing</li>
+            </ul>
+          </div>
+          <div className="list-column">
+            <ul>
+            <li>Our Team</li>
+              <li>Testimonies</li>
+              <li>Destinations</li>
+              <li>Signing</li>
+            </ul>
+          </div>
         </div>
-        <div className="footer-list">
-          <div className="list-column">
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-            </ul>
-          </div>
-          <div className="list-column">
-            <ul>
-              <li>Item 4</li>
-              <li>Item 5</li>
-              <li>Item 6</li>
-            </ul>
-          </div>
-          <div className="list-column">
-            <ul>
-              <li>Item 7</li>
-              <li>Item 8</li>
-              <li>Item 9</li>
-            </ul>
           </div>
         </div>
+        
       </div>
+      <p>Copyright Wazzy Safari 2022</p>
     </footer>
   );
 }

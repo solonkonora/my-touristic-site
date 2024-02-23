@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(42, 87, 42);
+    background-color: teal;
     color: #fff;
     /* padding: 20px; */
   }
@@ -30,9 +30,14 @@
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
-    width: 70%;
+    /* width: 90%; */
   }
   
+  .footer-column p:first-of-type  {
+    margin-bottom: 30px;
+    width: 90%;
+  }
+
   .subscribe-form {
     display: flex;
     align-items: center;
@@ -79,7 +84,7 @@
   }
   
   .footer-list {
-    display: flex;
+     display: flex;
     justify-content: space-between;
   }
   
@@ -92,6 +97,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: left;
+
   }
   
   .list-column ul li {
