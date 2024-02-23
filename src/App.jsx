@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-import Footer from "./components/footer/footer";
+// import Footer from "./components/footer/footer";
+import Navigation from "./components/navigation/navigation";
 // import './App.module.css';
 
 function App() {
@@ -22,7 +23,8 @@ return (
     //         </Routes>
     //       </div>
     //     </Router>
-    < Footer/>
+    < Navigation/>
+    // < Footer/>
      );
 }
 

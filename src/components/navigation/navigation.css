@@ -1,0 +1,70 @@
+@import url("https://fonts.cdnfonts.com/css/tt-firs-neue-trl");
+/* 
+:root {
+  --primary-background-color: #181a1b;
+  --secondary-background-color: #54ea54;
+  --custom-color-1: #f08cf0;
+  --custom-color-2: #b1f3f3;
+  --primary-color-text: #fff;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* .main-content {
+  width: 100vw;
+  margin: auto;
+  justify-content: center;
+  justify-self: center;
+  overflow: hidden;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+}
+
+.navbar-box1 {
+  display: flex;
+  padding: 15px;
+}
+
+.navbar-box1 ul,
+.navbar-box2 ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar li {
+  padding: 10px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+/* .footer-column a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-box2 ul a {
+  text-decoration: none;
+  color: var(--primary-background-color);
+} */
+
+.navbar-box3 li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-right: 40px;
+  justify-content: center;
+}
