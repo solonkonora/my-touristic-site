@@ -49,22 +49,16 @@
   list-style-type: none;
 }
 
-/* .footer-column a {
-  color: #333;
-  text-decoration: none;
-}
-
-.navbar-box2 ul a {
-  text-decoration: none;
-  color: var(--primary-background-color);
-} */
+.navbar li a {
+    color: #000;
+  }
 
 .navbar-box3 li a {
   text-decoration: none;
   color: #fff;
   background-color: orange;
   border-radius: 5px;
-  padding: 8px 15px;
+  padding: 10px 25px;
   margin-right: 40px;
   justify-content: center;
 }

@@ -9,7 +9,7 @@ return (
 <div className="navbar">
             <div className="navbar-box1">
                 <ul>
-                    <li><img src="./assets/images/logo.webp" alt="logo" width="12rem" height="12rem"/></li>
+                    <li><img src="/images/dinosaur.png" alt="logo" width="90px" height="90px"/></li>
                 </ul>
             </div>
             <div className="navbar-box2">
