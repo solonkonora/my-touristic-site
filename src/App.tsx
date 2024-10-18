@@ -30,17 +30,20 @@
 
 import * as React from 'react'
 import "./index.css"
-import MiniNavbar from './components/topNav';
-import Navigation from "./components/navigation";
+ import MiniNavbar from './components/topNav';
+ import Navigation from "./components/navigation";
 import Footer from "./components/footer";
+import Form from './components/form';
 
 
 const App: React.FC = () => {
     return (
       <div className="text-center">
-        <MiniNavbar/>
+         <MiniNavbar/>
         <Navigation />
+        <Form />
         <Footer />
+
       </div>
     );
   };
