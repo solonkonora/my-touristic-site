@@ -1,14 +1,13 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+// import React, { useState } from "react";
+// import Navigation from "./components/navigation";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css'
 // import Footer from "./components/footer/footer";
-import Navigation from "./components/navigation/navigation";
 // import './App.module.css';
 
-function App() {
+//function App() {
   
-return (
+//return (
     //     <Router>
     //       <div>
             
@@ -23,9 +22,24 @@ return (
     //         </Routes>
     //       </div>
     //     </Router>
-    < Navigation/>
+    // < Navigation/>
     // < Footer/>
-     );
-}
+   //  );
+//}
 
+
+import * as React from 'react'
+import "./index.css"
+import Navigation from "./components/navigation";
+import Footer from "./components/footer";
+
+
+const App: React.FC = () => {
+    return (
+      <div className="text-center">
+        <Navigation />
+        <Footer />
+      </div>
+    );
+  };
 export default App

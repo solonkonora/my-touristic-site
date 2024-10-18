@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          // Target ECMAScript 5 (for older browser support)
+    "lib": ["dom", "dom.iterable", "esnext"], // Libraries to include in the compilation (DOM for browser APIs, ESNext for modern JavaScript features)
+    "allowJs": true,                          // Allow JavaScript files to be compiled
+    "skipLibCheck": true,                     // Skip type checking of declaration files
+    "esModuleInterop": true,                  // Enables compatibility with CommonJS modules
+    "allowSyntheticDefaultImports": true,     // Allows default imports even if module doesn't have a default export
+    "strict": true,                           // Enables strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistent casing in import paths
+    "module": "esnext",                       // Use ESNext modules, suitable for frontend projects
+    "moduleResolution": "node",               // Use Node.js module resolution for finding modules in node_modules
+    "resolveJsonModule": true,                // Allows importing JSON files
+    "isolatedModules": true,                  // Treat each file as a separate module (important for React)
+    "noEmit": true,                           // Do not emit output files (useful in development, handled by bundlers like Webpack or Vite)
+    "jsx": "react-jsx"                        // Use React's JSX syntax (for React 17+ with the new JSX transform)
+  },
+  "include": [
+    "src"                                     // Include the 'src' folder in the TypeScript compilation
+  ],
+  "exclude": [
+    "node_modules",                           // Exclude 'node_modules' folder from compilation
+    "build"                                   // Exclude build output folder
+  ]
+}
