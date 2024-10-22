@@ -1,32 +1,17 @@
 'use client'
 
-import { useState } from 'react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-
 export default function Form() {
-  const [agreed, setAgreed] = useState(false)
-
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div
-        aria-hidden="true"
-        className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
-      >
-        <div
-          style={{
-            clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-          }}
-          className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
-        />
-      </div>
-      <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get in Touch</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
+    <div className="bg-white sm:pt-12 lg:px-8">
+      <div className="mx-auto max-w-6xl text-center">
+        <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl pt-4">Get in Touch</h2>
+        <p className="mt-2 text-lg leading-8 text-black px-2">
           We would love to hear from you if you have any comments or suggestions about our website or our services, just get in touch. We are always looking for ways to improve and make your travel experience even better.
         </p>
       </div>
-      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20 border border-gray-300 rounded-lg p-6">
+      <p className="font-bold text-lg pb-3">contact us</p>
+
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -122,12 +107,59 @@ export default function Form() {
         <div className="mt-10">
           <button
             type="submit"
-            className="block w-full rounded-md bg-teal-900 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-steal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="block w-1/4 rounded-md bg-yellow-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
           >
             Let's talk
           </button>
         </div>
       </form>
+
+
+      <div className="container mx-auto px-4 py-12">
+  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+    {/* First Div: Social Media */}
+    <div className="shadow-lg p-6 bg-white rounded-lg">
+      <h3 className="text-xl font-bold mb-4">Social Media</h3>
+      <div className="flex justify-center space-x-3">
+        <div className="border border-white-300 p-2 rounded-full">
+          <img className="w-6 h-6" src="/images/twi.png" alt="Twitter" />
+        </div>
+        <div className="border border-white-300 p-2 rounded-full">
+          <img className="w-6 h-6" src="/images/fb.png" alt="Facebook" />
+        </div>
+        <div className="border border-white-300 p-2 rounded-full">
+          <img className="w-6 h-6" src="/images/linkin.png" alt="LinkedIn" />
+        </div>
+        <div className="border border-white-300 p-2 rounded-full">
+          <img className="w-6 h-6" src="/images/ut.png" alt="utube" />
+        </div>
+      </div>
+    </div>
+
+    {/* Second Div: Email & Phone */}
+    <div className="shadow-lg p-6 bg-white rounded-lg">
+      <h3 className="text-xl font-bold mb-4">Email & Phone</h3>
+      <div className="flex items-center mb-4">
+        <img className="w-6 h-6 mr-2" src="/images/email.png" alt="Email" />
+        <span>info@example.com</span>
+      </div>
+      <div className="flex items-center">
+        <img className="w-6 h-6 mr-2" src="/images/phone.png" alt="Phone" />
+        <span>237-123-456-7890</span>
+      </div>
+    </div>
+
+    {/* Third Div: Address */}
+    <div className="shadow-lg p-6 bg-white rounded-xl">
+      <h3 className="text-xl font-bold mb-4">Address</h3>
+      <p className="mb-2">1234 Safari Avenue</p>
+      <p>Cityville, 56789</p>
+    </div>
+
+  </div>
+</div>
+
     </div>
   )
 }

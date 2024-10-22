@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center mb-10">Copyright Wazzy Safari 2022</p>
+      <p className="text-center">Copyright Wazzy Safari 2022</p>
     </footer>
   );
 
