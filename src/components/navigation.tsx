@@ -36,22 +36,19 @@ const Navigation = () => {
         <div className="hidden md:flex">
           <ul className="flex items-center space-x-4">
             <li className="text-lg">
-              <a href="#" className="text-black">Home</a>
+              <a href="./home" className="text-black">Home</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Features</a>
+              <a href="./about" className="text-black">about</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Tour-Package</a>
+              <a href="./package" className="text-black">Tour-Package</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Gallery</a>
+              <a href="./gallery" className="text-black">Gallery</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Bloq</a>
-            </li>
-            <li className="text-lg">
-              <a href="#" className="text-black">Contact-Us</a>
+              <a href="./contact" className="text-black">Contact-Us</a>
             </li>
           </ul>
         </div>
@@ -72,22 +69,19 @@ const Navigation = () => {
         <div className="md:hidden">
           <ul className="flex flex-col items-start p-4 space-y-2">
             <li className="text-lg">
-              <a href="#" className="text-black">Home</a>
+              <a href="./home" className="text-black">Home</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Features</a>
+              <a href="./about" className="text-black">about</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Tour-Package</a>
+              <a href="./package" className="text-black">Tour-Package</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Gallery</a>
+              <a href="./gallery" className="text-black">Gallery</a>
             </li>
             <li className="text-lg">
-              <a href="#" className="text-black">Bloq</a>
-            </li>
-            <li className="text-lg">
-              <a href="#" className="text-black">Contact-Us</a>
+              <a href="./contact" className="text-black">Contact-Us</a>
             </li>
             <li className="text-lg">
               <a

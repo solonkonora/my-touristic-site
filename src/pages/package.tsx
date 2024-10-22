@@ -3,7 +3,7 @@ import MiniNavbar from '../components/topNav';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 
-const GalleryPage = () => {
+const PackagePage = () => {
     return (
         <>
             <MiniNavbar />
@@ -14,4 +14,4 @@ const GalleryPage = () => {
         </>
     )
 }
-export default GalleryPage;
+export default PackagePage;
