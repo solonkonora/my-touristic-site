@@ -54,7 +54,7 @@ const TourPlan = () => {
                             className="w-full h-40 object-cover rounded-lg mb-4"
                         />
                         <h3 className="text-xl font-semibold mb-2 px-4">{item.subtitle}</h3>
-                        <p className="text-black-600 mb-4  px-4">
+                        <p className="text-black-600 mb-4 px-4">
                             {item.text}
                         </p>
                         <button className="bg-yellow-600 text-white px-2 py-2 mx-4 mb-4 rounded hover:bg-yellow-500">
@@ -66,11 +66,11 @@ const TourPlan = () => {
 
             <div className="relative w-full h-10 ">
                 <div className="absolute left-0 ">
-                    <FaChevronLeft className="text-2xl cursor-pointer text-yellow-600 bg-white rounded-md border ml-3 border-yellow-600" />
+                <FaChevronLeft className="text-3xl cursor-pointer text-yellow-600 bg-white rounded-full border-2 border-yellow-600 ml-3 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
                 </div>
 
                 <div className="absolute right-0">
-                    <FaChevronRight className="text-2xl cursor-pointer bg-yellow-600 text-white mr-3 rounded-md" />
+                <FaChevronRight className="text-3xl cursor-pointer text-yellow-600 bg-white rounded-full border-2 border-yellow-600 ml-3 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
                 </div>
             </div>
         </>
