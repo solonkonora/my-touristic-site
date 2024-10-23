@@ -47,17 +47,17 @@ const TourPlan = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
                 {divData.map((item, index) => (
-                    <div key={index} className="flex flex-col items-start bg-white p-4 rounded-lg shadow-md">
+                    <div key={index} className="flex flex-col items-start bg-white rounded-lg shadow-md border border-gray-300">
                         <img
                             src={item.imgSrc}
                             alt={item.subtitle}
                             className="w-full h-40 object-cover rounded-lg mb-4"
                         />
-                        <h3 className="text-xl font-semibold mb-2">{item.subtitle}</h3>
-                        <p className="text-black-600 mb-4">
+                        <h3 className="text-xl font-semibold mb-2 px-4">{item.subtitle}</h3>
+                        <p className="text-black-600 mb-4  px-4">
                             {item.text}
                         </p>
-                        <button className="bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-500">
+                        <button className="bg-yellow-600 text-white px-2 py-2 mx-4 mb-4 rounded hover:bg-yellow-500">
                             Read More
                         </button>
                     </div>

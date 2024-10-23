@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="flex-1 text-left my-10 sm:ml-10">
             <div className="flex justify-between sm:mr-10 mb-5">
               <div className="w-12 h-12">
-                <img className="w-10 h-10" src="/images/dinosaur.png" alt="Logo" />
+                <img className="w-10 h-10" src="/images/logo.jpg" alt="Logo" />
               </div>
               <div className="flex space-x-2">
                 <img className="w-7 h-7" src="/images/twitter.png" alt="Twitter" />

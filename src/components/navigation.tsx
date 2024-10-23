@@ -10,12 +10,13 @@ const Navigation = () => {
 
   return (
     <>
-      <div className="w-full flex justify-between items-center p-4">
+      {/* <div className="w-full flex justify-between items-center p-4"> */}
+        <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         {/* Logo */}
         <div className="flex items-center">
-          <ul className="flex items-center ml-8">
+          <ul className="flex items-center">
             <li>
-              <img src="/images/dinosaur.png" alt="logo" className="w-10 h-10" />
+              <img src="/images/logo.jpg" alt="logo" className="w-10 h-10 rounded-full" />
             </li>
           </ul>
         </div>
@@ -57,7 +58,7 @@ const Navigation = () => {
         <div className="hidden md:flex items-center">
           <a
             href="#"
-            className="bg-yellow-600 text-white border-2 border-black rounded-md py-2 px-6 text-lg"
+            className="bg-yellow-600 text-white border-2 border-black rounded-md py-1.5 px-6 text-lg"
           >
             Signup
           </a>
