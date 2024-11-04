@@ -17,7 +17,7 @@ function App() {
 
                     <Routes>
                         {/* rather use the page as props */}
-                        <Route path="/" element={<Home />} />
+                        <Route path="/home" element={<Home />} />
                         <Route path="/about" element={<AboutPage />} />
                         <Route path="/gallery" element={<GalleryPage />} />
                         <Route path="/package" element={<PackagePage />} />

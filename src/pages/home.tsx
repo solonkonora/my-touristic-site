@@ -4,6 +4,7 @@ import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import TourPlan from '../components/plans';
+import GuestInfo from '../components/guessinfo';
 
 const Homes = () => {
     return (
@@ -32,15 +33,35 @@ const Homes = () => {
 
             </div>
             <div className="relative w-full ">
-                    <div className="absolute left-0 -mt-32 ">
+                <div className="absolute left-0 -mt-32 ">
                     <FaChevronLeft className="text-5xl cursor-pointer text-white bg-transparent rounded-full border-4 border-white ml-44 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
+                </div>
+
+                <div className="absolute right-0 -mt-32">
+                    <FaChevronRight className="text-5xl cursor-pointer text-white bg-transparent rounded-full border-4 border-white mr-44 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
+                </div>
+            </div>
+
+            <div className="flex justify-center items-center relative ">
+
+                {/* Main Container with 80% Width */}
+                <div className="w-4/5 bg-teal-900 -mt-10 p-6 border border-gray-300 rounded-lg shadow-md ">
+
+                    {/* Flex Row containing Search Bar and Guest Info */}
+                    <div className="flex items-center space-x-4">
+                        {/* Search Bar */}
+                        <input
+                            type="text"
+                            placeholder="Search..."
+                            className="w-1/3 p-2 border border-gray-300 rounded-md"
+                        />
+
+                        {/* Guest Info with Book Now Button Inside */}
+                        <GuestInfo buttonColor="bg-yellow-400" buttonHoverColor="bg-yellow-100" />
                     </div>
 
-                    <div className="absolute right-0 -mt-32">
-                    <FaChevronRight className="text-5xl cursor-pointer text-white bg-transparent rounded-full border-4 border-white mr-44 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
-                    </div>
                 </div>
-                
+            </div>
             <TourPlan />
             <Footer />
         </>
