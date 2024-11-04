@@ -41,7 +41,7 @@ const AboutPage = () => {
                     </p>
                     <div className="w-full flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 p-4 relative z-10">
                    
-                    <GuestInfo buttonColor="bg-teal-900" buttonHoverColor="bg-teal-500" />
+                    <GuestInfo buttonColor="bg-teal-900" buttonHoverColor="bg-teal-500" textColor={'black'} />
 
                     </div>
 

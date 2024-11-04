@@ -57,9 +57,8 @@ const Homes = () => {
                         />
 
                         {/* Guest Info with Book Now Button Inside */}
-                        <GuestInfo buttonColor="bg-yellow-400" buttonHoverColor="bg-yellow-100" />
+                        < GuestInfo buttonColor={'bg-yellow-900'} buttonHoverColor={'bg-yellow-300'} textColor={'white'} />
                     </div>
-
                 </div>
             </div>
             <TourPlan />
