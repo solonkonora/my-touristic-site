@@ -1,15 +1,18 @@
 import * as React from 'react'
-import MiniNavbar from '../components/topNav';
-import Navigation from '../components/navigation';
-import Footer from '../components/footer';
-import HeroSection from '../components/hero';
+import MiniNavbar from '../components/TopNav';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+import HeroSection from '../components/Hero';
 
 const GalleryPage = () => {
     return (
         <>
             <MiniNavbar />
             <Navigation />
-            <HeroSection />
+            <HeroSection 
+                title="Gallery" 
+                currentPage="Gallery"
+            />
 
             <div className="container mx-auto py-8">
                 <div className="hidden md:flex items-center justify-end my-3">

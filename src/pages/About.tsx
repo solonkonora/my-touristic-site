@@ -1,7 +1,7 @@
-import * as React from 'react'
-import MiniNavbar from '../components/topNav';
-import Navigation from '../components/navigation';
-import Footer from '../components/footer';
+import MiniNavbar from '../components/TopNav';
+import Navigation from '../components/Navigation';
+import GuestInfo from '../components/GuestInfo';
+import Footer from '../components/Footer';
 
 const AboutPage = () => {
 
@@ -27,11 +27,9 @@ const AboutPage = () => {
         <>
             <MiniNavbar />
             <Navigation />
-            {/* needs the hero section */}
 
-
-            <section className="relative flex items-center justify-between h-screen bg-gray-100">
-                {/* Left Content */}
+            <section className="relative flex items-center justify-between h-screen">
+                {/* eft Content */}
                 <div className="w-full md:w-1/2 p-8 z-10">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
                         We are dedicated to providing the best travel experience.
@@ -39,19 +37,21 @@ const AboutPage = () => {
                     <p className="mt-4 text-lg text-gray-600">
                         Discover the Land of a Thousand Hills.
                     </p>
-                    <a href="#"
-                        className="inline-block mt-6 bg-teal-900 text-white border-8 border-white py-2 px-6 rounded-lg text-lg hover:bg-teal-700 absolute bottom-8 left-8 md:relative md:mt-6">
-                        Get Started
-                    </a>
-                </div>
+                    <div className="w-full flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 p-4 relative z-10">
+                   
+                    <GuestInfo buttonColor="bg-teal-900" buttonHoverColor="bg-teal-500" textColor={'black'} />
 
-                {/* Right Image */}
-                <div className="absolute top-0 right-0 w-full md:w-2/5 h-full z-0">
-                    <img
-                        src="https://images.pexels.com/photos/3889805/pexels-photo-3889805.jpeg?auto=compress&cs=tinysrgb&w=800"
-                        alt="Safari"
-                        className="w-full h-full object-cover"
-                    />
+                    </div>
+
+                    {/* Right Image */}
+                    <div className="absolute top-0 right-0 w-full md:w-2/5 h-full z-0">
+                        <img
+                            src="https://images.pexels.com/photos/2175007/pexels-photo-2175007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Safari"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+
                 </div>
             </section>
 

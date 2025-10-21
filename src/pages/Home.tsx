@@ -1,9 +1,9 @@
-import * as React from 'react'
-import MiniNavbar from '../components/topNav';
-import Navigation from '../components/navigation';
-import Footer from '../components/footer';
+import MiniNavbar from '../components/TopNav';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
-import TourPlan from '../components/plans';
+import TourPlan from '../components/Plans';
+import GuestInfo from '../components/GuestInfo';
 
 const Homes = () => {
     return (
@@ -32,15 +32,31 @@ const Homes = () => {
 
             </div>
             <div className="relative w-full ">
-                    <div className="absolute left-0 -mt-32 ">
+                <div className="absolute left-0 -mt-32 ">
                     <FaChevronLeft className="text-5xl cursor-pointer text-white bg-transparent rounded-full border-4 border-white ml-44 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
-                    </div>
+                </div>
 
-                    <div className="absolute right-0 -mt-32">
+                <div className="absolute right-0 -mt-32">
                     <FaChevronRight className="text-5xl cursor-pointer text-white bg-transparent rounded-full border-4 border-white mr-44 shadow-lg hover:bg-yellow-600 hover:text-white transition-all duration-300 ease-in-out p-2" />
+                </div>
+            </div>
+
+            <div className="flex justify-center items-center relative ">
+
+                <div className="w-4/5 bg-teal-900 -mt-10 p-6 border border-gray-300 rounded-lg shadow-md ">
+
+                    {/* flex Row containing Search Bar and Guest Info */}
+                    <div className="flex items-center space-x-4">
+                        <input
+                            type="text"
+                            placeholder="Search..."
+                            className="w-1/3 p-2 border border-gray-300 rounded-md"
+                        />
+
+                        < GuestInfo buttonColor={'bg-yellow-900'} buttonHoverColor={'bg-yellow-300'} textColor={'white'} />
                     </div>
                 </div>
-                
+            </div>
             <TourPlan />
             <Footer />
         </>
