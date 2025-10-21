@@ -1,9 +1,7 @@
-import * as React from 'react'
-import MiniNavbar from '../components/topNav';
-import Navigation from '../components/navigation';
-// import { FaChevronDown } from 'react-icons/fa';
-import GuestInfo from '../components/guessinfo';
-import Footer from '../components/footer';
+import MiniNavbar from '../components/TopNav';
+import Navigation from '../components/Navigation';
+import GuestInfo from '../components/GuestInfo';
+import Footer from '../components/Footer';
 
 const AboutPage = () => {
 
@@ -31,7 +29,7 @@ const AboutPage = () => {
             <Navigation />
 
             <section className="relative flex items-center justify-between h-screen">
-                {/* Left Content */}
+                {/* eft Content */}
                 <div className="w-full md:w-1/2 p-8 z-10">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
                         We are dedicated to providing the best travel experience.

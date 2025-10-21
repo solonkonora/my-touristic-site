@@ -2,11 +2,11 @@
 import { useState } from "react";
 import * as React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutPage from "./pages/about";
-import GalleryPage from "./pages/gallery";
-import Home from "./pages/home";
-import ContactUs from "./pages/contact";
-import PackagePage from "./pages/package";
+import AboutPage from "./pages/About";
+import GalleryPage from "./pages/Gallery";
+import Home from "./pages/Home";
+import ContactUs from "./pages/Contact";
+import PackagePage from "./pages/Package";
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
 
                     <Routes>
                         {/* rather use the page as props */}
+                        <Route path="/" element={<Home />} />
                         <Route path="/home" element={<Home />} />
                         <Route path="/about" element={<AboutPage />} />
                         <Route path="/gallery" element={<GalleryPage />} />

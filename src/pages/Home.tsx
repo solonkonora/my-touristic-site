@@ -1,10 +1,9 @@
-import * as React from 'react'
-import MiniNavbar from '../components/topNav';
-import Navigation from '../components/navigation';
-import Footer from '../components/footer';
+import MiniNavbar from '../components/TopNav';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
-import TourPlan from '../components/plans';
-import GuestInfo from '../components/guessinfo';
+import TourPlan from '../components/Plans';
+import GuestInfo from '../components/GuestInfo';
 
 const Homes = () => {
     return (
@@ -44,19 +43,16 @@ const Homes = () => {
 
             <div className="flex justify-center items-center relative ">
 
-                {/* Main Container with 80% Width */}
                 <div className="w-4/5 bg-teal-900 -mt-10 p-6 border border-gray-300 rounded-lg shadow-md ">
 
-                    {/* Flex Row containing Search Bar and Guest Info */}
+                    {/* flex Row containing Search Bar and Guest Info */}
                     <div className="flex items-center space-x-4">
-                        {/* Search Bar */}
                         <input
                             type="text"
                             placeholder="Search..."
                             className="w-1/3 p-2 border border-gray-300 rounded-md"
                         />
 
-                        {/* Guest Info with Book Now Button Inside */}
                         < GuestInfo buttonColor={'bg-yellow-900'} buttonHoverColor={'bg-yellow-300'} textColor={'white'} />
                     </div>
                 </div>

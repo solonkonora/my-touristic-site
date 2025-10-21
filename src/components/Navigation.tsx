@@ -1,5 +1,5 @@
-import * as React from "react";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,9 +10,7 @@ const Navigation = () => {
 
   return (
     <>
-      {/* <div className="w-full flex justify-between items-center p-4"> */}
         <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-        {/* Logo */}
         <div className="flex items-center">
           <ul className="flex items-center">
             <li>
@@ -21,7 +19,6 @@ const Navigation = () => {
           </ul>
         </div>
 
-        {/* Hamburger Icon for Mobile */}
         <div className="block md:hidden">
           <button
             className="text-black focus:outline-none"
@@ -37,24 +34,23 @@ const Navigation = () => {
         <div className="hidden md:flex">
           <ul className="flex items-center space-x-4">
             <li className="text-lg">
-              <a href="./home" className="text-black">Home</a>
+              <Link to="/home" className="text-black hover:text-yellow-600 transition-colors">Home</Link>
             </li>
             <li className="text-lg">
-              <a href="./about" className="text-black">about</a>
+              <Link to="/about" className="text-black hover:text-yellow-600 transition-colors">About</Link>
             </li>
             <li className="text-lg">
-              <a href="./package" className="text-black">Tour-Package</a>
+              <Link to="/package" className="text-black hover:text-yellow-600 transition-colors">Tour-Package</Link>
             </li>
             <li className="text-lg">
-              <a href="./gallery" className="text-black">Gallery</a>
+              <Link to="/gallery" className="text-black hover:text-yellow-600 transition-colors">Gallery</Link>
             </li>
             <li className="text-lg">
-              <a href="./contact" className="text-black">Contact-Us</a>
+              <Link to="/contact" className="text-black hover:text-yellow-600 transition-colors">Contact-Us</Link>
             </li>
           </ul>
         </div>
 
-        {/* Signup button */}
         <div className="hidden md:flex items-center">
           <a
             href="#"
@@ -65,24 +61,23 @@ const Navigation = () => {
         </div>
       </div>
 
-      {/* Dropdown menu for mobile */}
       {isOpen && (
         <div className="md:hidden">
           <ul className="flex flex-col items-start p-4 space-y-2">
             <li className="text-lg">
-              <a href="./home" className="text-black">Home</a>
+              <Link to="/home" className="text-black hover:text-yellow-600 transition-colors" onClick={toggleMenu}>Home</Link>
             </li>
             <li className="text-lg">
-              <a href="./about" className="text-black">about</a>
+              <Link to="/about" className="text-black hover:text-yellow-600 transition-colors" onClick={toggleMenu}>About</Link>
             </li>
             <li className="text-lg">
-              <a href="./package" className="text-black">Tour-Package</a>
+              <Link to="/package" className="text-black hover:text-yellow-600 transition-colors" onClick={toggleMenu}>Tour-Package</Link>
             </li>
             <li className="text-lg">
-              <a href="./gallery" className="text-black">Gallery</a>
+              <Link to="/gallery" className="text-black hover:text-yellow-600 transition-colors" onClick={toggleMenu}>Gallery</Link>
             </li>
             <li className="text-lg">
-              <a href="./contact" className="text-black">Contact-Us</a>
+              <Link to="/contact" className="text-black hover:text-yellow-600 transition-colors" onClick={toggleMenu}>Contact-Us</Link>
             </li>
             <li className="text-lg">
               <a

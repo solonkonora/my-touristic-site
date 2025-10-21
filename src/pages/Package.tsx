@@ -1,9 +1,8 @@
-import * as React from 'react'
-import MiniNavbar from '../components/topNav';
-import Navigation from '../components/navigation';
-import Footer from '../components/footer';
-import TourPlan from '../components/plans';
-import HeroSection from '../components/hero';
+import MiniNavbar from '../components/TopNav';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+import TourPlan from '../components/Plans';
+import HeroSection from '../components/Hero';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 const PackagePage = () => {
@@ -11,7 +10,10 @@ const PackagePage = () => {
         <>
             <MiniNavbar />
             <Navigation />
-            <HeroSection />
+            <HeroSection 
+                title="Tour Packages" 
+                currentPage="Packages"
+            />
             <TourPlan />
 
             {/* pagination buttons */}
