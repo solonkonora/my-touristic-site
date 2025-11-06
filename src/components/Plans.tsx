@@ -5,33 +5,33 @@ const TourPlan = () => {
     const divData = [
         {
             imgSrc: "https://images.pexels.com/photos/8974287/pexels-photo-8974287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            subtitle: "Subtitle 1",
-            text: "This is some normal text describing the content of this div.",
+            subtitle: "Volcanoes National Park",
+            text: "Experience the majestic mountain gorillas in their natural habitat. Trek through lush rainforests and witness these incredible creatures up close in Rwanda's premier wildlife destination.",
         },
         {
             imgSrc: "https://media.istockphoto.com/id/1254013331/photo/family-running-down-rocky-trail.jpg?b=1&s=612x612&w=0&k=20&c=iL8BWUF--VkohXGJSdBuKugUv5kpwvpm9vO0GgXahD4=",
-            subtitle: "Subtitle 2",
-            text: "This is some normal text describing the content of this div.",
+            subtitle: "Akagera National Park Safari",
+            text: "Embark on an unforgettable safari adventure through Rwanda's largest protected wetland. Spot the Big Five and diverse wildlife in stunning savanna landscapes.",
         },
         {
             imgSrc: "https://images.pexels.com/photos/17140115/pexels-photo-17140115/free-photo-of-hiker-among-sandstone-formations.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            subtitle: "Subtitle 3",
-            text: "This is some normal text describing the content of this div.",
+            subtitle: "Nyungwe Forest Canopy Walk",
+            text: "Walk above the treetops on East Africa's only canopy walkway. Discover rare primates, colorful birds, and breathtaking views in one of Africa's oldest rainforests.",
         },
         {
             imgSrc: "https://images.pexels.com/photos/8974287/pexels-photo-8974287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            subtitle: "Subtitle 1",
-            text: "This is some normal text describing the content of this div.",
+            subtitle: "Lake Kivu Beach Retreat",
+            text: "Relax on the pristine shores of Lake Kivu, one of Africa's Great Lakes. Enjoy water sports, island hopping, and stunning sunsets in this tropical paradise.",
         },
         {
             imgSrc: "https://media.istockphoto.com/id/1254013331/photo/family-running-down-rocky-trail.jpg?b=1&s=612x612&w=0&k=20&c=iL8BWUF--VkohXGJSdBuKugUv5kpwvpm9vO0GgXahD4=",
-            subtitle: "Subtitle 2",
-            text: "This is some normal text describing the content of this div.",
+            subtitle: "Cultural Heritage Tour",
+            text: "Immerse yourself in Rwandan culture through traditional dance, local cuisine, and visits to historical sites. Experience the warmth and resilience of the Rwandan people.",
         },
         {
             imgSrc: "https://images.pexels.com/photos/17140115/pexels-photo-17140115/free-photo-of-hiker-among-sandstone-formations.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            subtitle: "Subtitle 3",
-            text: "This is some normal text describing the content of this div.",
+            subtitle: "Golden Monkey Tracking",
+            text: "Trek through bamboo forests to encounter the rare and playful golden monkeys. A unique primate experience in the volcanic mountains of Rwanda's north.",
         },
     ];
 

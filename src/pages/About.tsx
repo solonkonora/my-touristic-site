@@ -29,7 +29,7 @@ const AboutPage = () => {
             <Navigation />
 
             <section className="relative flex items-center justify-between h-screen">
-                {/* eft Content */}
+                {/* Left Content */}
                 <div className="w-full md:w-1/2 p-8 z-10">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
                         We are dedicated to providing the best travel experience.
