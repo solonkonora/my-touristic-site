@@ -9,17 +9,17 @@ const AboutPage = () => {
         {
             id: 1,
             imgsrc: "https://images.pexels.com/photos/1137453/pexels-photo-1137453.jpeg?auto=compress&cs=tinysrgb&w=400",
-            text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, voluptates?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veritatis pariatur fuga maiores, dolore ipsam! In eius delectus porro molestiae",
+            text: "At Wizzy Safari, we are passionate about showcasing the breathtaking beauty and rich culture of Rwanda. As a leading tourism company, we specialize in creating unforgettable safari experiences that connect travelers with the heart of Africa. From the misty mountains home to endangered gorillas to the vast savannas teeming with wildlife, we bring the magic of Rwanda to life.",
         },
         {
             id: 2,
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam nobis non perferendis, expedita dolor incidunt eius quam! Vitae a maiores soluta ratione voluptates unde aspernatur libero rerum aut ex.",
+            text: "Our team of experienced guides and travel experts are committed to delivering exceptional service and authentic experiences. We believe in sustainable tourism that benefits local communities and preserves Rwanda's natural heritage for future generations. With years of expertise in the tourism industry, we ensure every journey is safe, comfortable, and filled with memorable moments that will last a lifetime.",
             imgsrc: "https://images.pexels.com/photos/1102609/pexels-photo-1102609.jpeg?auto=compress&cs=tinysrgb&w=400",
         },
         {
             id: 3,
             imgsrc: "https://images.pexels.com/photos/5792827/pexels-photo-5792827.jpeg?auto=compress&cs=tinysrgb&w=400",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam nobis non perferendis, expedita dolor incidunt eius quam! Vitae a maiores soluta ratione voluptates unde aspernatur libero rerum aut ex.",
+            text: "Whether you're seeking adventure through gorilla trekking, wildlife safaris, cultural immersion, or peaceful lakeside retreats, Wizzy Safari offers carefully curated packages to match your travel dreams. Join us in discovering why Rwanda is called the Land of a Thousand Hills and experience the warmth, beauty, and wonder that make this country truly special.",
         }
     ]
 
